@@ -1,7 +1,7 @@
 import './App.css';
-import Footer from './Components/Footer/Footer';
-import LandingPage from './Components/LandingPage/LandingPage';
-import PromotionCard from './Components/PromotionCard/PromotionCard';
+import Footer from './components/Footer/Footer';
+import LandingPage from './components/LandingPage/LandingPage';
+import PromotionCard from './components/PromotionCard/PromotionCard';
 
 function App() {
   return (
