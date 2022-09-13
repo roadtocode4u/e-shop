@@ -55,7 +55,7 @@
     padding: 25px;
 }
 .card-border{
-    height: 160px;
+    height: 250px;
     box-shadow: 1px 1px 0px 1px gray;
     /* border-top: 3px solid black; */
 }
@@ -66,3 +66,10 @@
     color: #F4FAF8;
 }
 
+.cart-svg{
+    
+    margin: 10px;
+    display: block;
+    margin: 15px auto;
+
+}

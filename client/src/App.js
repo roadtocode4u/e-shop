@@ -1,14 +1,14 @@
-import './App.css';
-import Footer from './Components/Footer/Footer';
-import LandingPage from './Components/LandingPage/LandingPage';
-import PromotionCard from './Components/PromotionCard/PromotionCard';
+import "./App.css";
+import Footer from "./components/Footer/Footer";
+import LandingPage from "./components/LandingPage/LandingPage";
+import PromotionCard from "./components/PromotionCard/PromotionCard";
 
 function App() {
   return (
     <div>
-        <LandingPage/>
-        <PromotionCard/>
-        <Footer/>
+      <LandingPage />
+      <PromotionCard />
+      <Footer />
     </div>
   );
 }
