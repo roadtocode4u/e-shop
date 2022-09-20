@@ -1,0 +1,149 @@
+.head-h1 {
+  font-size: 52px;
+  color: white;
+}
+
+.paragraph {
+  font-size: 20px;
+  color: white;
+}
+
+.paragraph-content {
+  font-size: 14px;
+  color: white;
+}
+
+.consumer {
+  background-color: #435c5f;
+}
+
+.consumer-one {
+  background-color: #f4faf8;
+  padding: 50px;
+}
+
+.btn-placeholder {
+  color: #f4faf8;
+  border: 1px solid #f4faf8;
+  height: 52px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn-search {
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #3793cb;
+  color: #f4faf8;
+  background-color: #3793cb;
+  margin: 5px;
+}
+
+.navbar-fixed {
+    display: block;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+  background-color: #435c5f;
+  align-items: center;
+}
+
+.menu-color {
+  color: #f4faf8;
+}
+
+.consumer-two {
+  background-color: skyblue;
+  padding: 25px;
+}
+
+.card-border {
+  height: 250px;
+  box-shadow: 1px 1px 0px 1px gray;
+}
+
+.card-border:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(138, 133, 133, 0.8);
+  background-color: #435c5f;
+  color: #f4faf8;
+}
+
+.cart-svg {
+  display: block;
+  margin: 15px auto;
+}
+
+.image-desc {
+  margin-top: 20px !important;
+}
+
+.imagetiles {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.imagetiles h5 {
+  font-size: 1.2em;
+  display: block !important;
+}
+
+.header-img {
+  width: 520px; 
+  height: 350px;
+    border-radius: 5px;
+    box-shadow: rgba(236, 201, 219, 0.96) 0px 8px 24px;
+    display: inline-block;
+    margin: 5px auto;
+
+}
+
+.start-division{
+    height: 50vh;
+}
+
+@media (max-width: 991px) {
+
+    .start-division{
+        height: auto;
+    }
+  .header-img {
+    margin: 10px !important;
+    display: inline-block;
+    margin: auto;
+  }
+
+  .start-text{
+    padding: 20px;
+  }
+}
+
+.navLogo {
+  float: left;
+  display: inline-block;
+  height: 38px;
+  margin-top: 4px;
+  margin-right: 5px;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #f4faf8;
+  margin-top: 9px;
+}
+
+.logo-text:hover {
+  cursor: pointer;
+}
+.img-responsive{
+display: inline-block;
+align-items: center;
+
+}
