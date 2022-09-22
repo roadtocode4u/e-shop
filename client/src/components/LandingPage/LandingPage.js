@@ -1,7 +1,8 @@
 import React from "react";
 import "./LandingPage.css";
 import FeatureCard from "../FeatureCard/FeatureCard";
-import Rtc from "./img/rtc-logo.png";
+import NavBar from "../NavBar/NavBar";
+
 import VegetableImg from "./img/allVegetable.jpg";
 // import ShopImg from "./img/allShop.jpg";
 // import ClothsImg from "./img/allCloths.jpg";
@@ -17,16 +18,7 @@ const headerImage = Math.floor(Math.random() * 2) ? VegetableImg : KichenImg;
 function LandingPage() {
   return (
     <>
-      <div>
-        <nav className="navbar-fixed">
-          <div className="nav-wrapper container">
-            <a href="#" className="brand-logo">
-              <img src={Rtc} className="navLogo" alt="logo" />
-            </a>
-          </div>
-          <p className="text-light logo-text">Shoppe-Savvy</p>
-        </nav>
-      </div>
+    <NavBar />
       <div className="consumer">
         <br />
         <div className="container">
