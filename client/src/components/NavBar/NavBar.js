@@ -4,7 +4,7 @@ import "./NavBar.css";
 
 function NavBar() {
   return (
-    <nav className="navbar-fixed">
+    <nav className="navbar-fix">
     <div className="nav-wrapper container">
       <a href="#" className="brand-logo">
         <img src={Rtc} className="navLogo" alt="logo" />

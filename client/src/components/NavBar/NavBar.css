@@ -1,3 +1,16 @@
+.navbar-fix{
+  display: block;
+  background-color: #435c5f;
+  color: #fff;
+  font-size: 1.rem;
+  font-weight: 700;
+  padding: 0.1rem .5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .navLogo {
     float: left;
     display: inline-block;

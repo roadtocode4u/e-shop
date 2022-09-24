@@ -107,7 +107,9 @@
     height: 50vh;
 }
 
+
 @media (max-width: 991px) {
+
 
     .start-division{
         height: auto;
@@ -123,25 +125,6 @@
   }
 }
 
-.navLogo {
-  float: left;
-  display: inline-block;
-  height: 38px;
-  margin-top: 4px;
-  margin-right: 5px;
-  align-items: center;
-}
-
-.logo-text {
-  font-size: 1.15em;
-  font-weight: 600;
-  color: #f4faf8;
-  margin-top: 9px;
-}
-
-.logo-text:hover {
-  cursor: pointer;
-}
 .img-responsive{
 display: inline-block;
 align-items: center;

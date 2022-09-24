@@ -1,15 +1,21 @@
+import * as React from "react";
 import "./App.css";
-import Footer from "./components/Footer/Footer";
 import LandingPage from "./components/LandingPage/LandingPage";
-import PromotionCard from "./components/PromotionCard/PromotionCard";
+
+import { Routes, Route, Link } from "react-router-dom";
+import AddProduct from "./components/AddProduct/AddProduct";
+
 
 function App() {
   return (
-    <div>
-      <LandingPage />
-      <PromotionCard />
-      <Footer />
-    </div>
+    <>
+     
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/addproduct" element={<AddProduct />} />
+      </Routes>
+
+    </>
   );
 }
 

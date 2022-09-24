@@ -2,6 +2,8 @@ import React from "react";
 import "./LandingPage.css";
 import FeatureCard from "../FeatureCard/FeatureCard";
 import NavBar from "../NavBar/NavBar";
+import Footer from "../Footer/Footer";
+import PromotionCard from "../PromotionCard/PromotionCard";
 
 import VegetableImg from "./img/allVegetable.jpg";
 // import ShopImg from "./img/allShop.jpg";
@@ -102,6 +104,8 @@ function LandingPage() {
       </div>
 
       <FeatureCard />
+      <PromotionCard />
+        <Footer />
     </>
   );
 }
