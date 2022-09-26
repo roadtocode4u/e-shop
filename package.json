@@ -19,7 +19,6 @@
   "homepage": "https://github.com/surajshende247/basic-mern-starter#readme",
   "dependencies": {
     "concurrently": "^7.1.0",
-    "react-browser-router": "^2.1.2",
     "react-router-dom": "^6.4.1",
     "vercel": "^28.3.0"
   }

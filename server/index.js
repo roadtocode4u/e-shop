@@ -1,5 +1,6 @@
 const express = require('express');
 require('dotenv').config();
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const path = require('path'); 
 const mongoose = require('mongoose')
@@ -8,6 +9,7 @@ const MONGO_URI = process.env.MONGO_URI;
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 const PORT = process.env.PORT || 5000;
 
@@ -27,11 +29,18 @@ if(process.env.NODE_ENV === 'production') {
   });
 }
 
+
+
 app.post("/add-product", async(req, res) => {
 
   header("Access-Control-Allow-Origin: http://localhost:5000");
-header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
+// header('Access-Control-Allow-Methods: GET, POST');
+// header("Access-Control-Allow-Headers: Content-Type");
+
+// header("Access-Control-Allow-Origin: *");
+header('Access-Control-Allow-Methods: GET, POST');
 header("Access-Control-Allow-Headers: Content-Type");
+
   let product = new Product(req.body);
  let result= await product.save((err, product) => {
     if(err) {
