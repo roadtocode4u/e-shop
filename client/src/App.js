@@ -2,7 +2,7 @@ import * as React from "react";
 import "./App.css";
 import LandingPage from "./components/LandingPage/LandingPage";
 
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import AddProduct from "./components/AddProduct/AddProduct";
 
 
@@ -12,7 +12,7 @@ function App() {
      
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        {/* <Route path="/addproduct" element={<AddProduct />} /> */}
+        <Route path="/addproduct" element={<AddProduct />} />
       </Routes>
 
     </>
