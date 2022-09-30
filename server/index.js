@@ -33,24 +33,15 @@ if(process.env.NODE_ENV === 'production') {
 
 app.post("/add-product", async(req, res) => {
 
-  header("Access-Control-Allow-Origin: http://localhost:5000");
-// header('Access-Control-Allow-Methods: GET, POST');
-// header("Access-Control-Allow-Headers: Content-Type");
-
-// header("Access-Control-Allow-Origin: *");
-header('Access-Control-Allow-Methods: GET, POST');
-header("Access-Control-Allow-Headers: Content-Type");
-
-  let product = new Product(req.body);
+  const product = new Product(req.body);
  let result= await product.save((err, product) => {
     if(err) {
       res.status(500).send(err);
     } else {
       res.status(200).send(product);
     }
+    console.log(result);
   });
-  res.send(result);
-  console.log(result);
 });
 
 

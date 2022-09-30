@@ -35,6 +35,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
     scroll-snap-align: start;
     transition: all 0.2s;
+    z-index: 1;
   }
   
   .card:not(:last-child) {
